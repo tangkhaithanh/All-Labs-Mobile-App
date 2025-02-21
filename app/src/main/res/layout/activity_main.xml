@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Switch control, căn giữa màn hình -->
+    <Switch
+        android:id="@+id/switchBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Background"
+        android:layout_centerInParent="true" /> <!-- Căn giữa cả theo chiều ngang và dọc -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switchBackground"
+        android:layout_marginTop="297dp"
+        android:text="Go to Login" />
+
+</RelativeLayout>
