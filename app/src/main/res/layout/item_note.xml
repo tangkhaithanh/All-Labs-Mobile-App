@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@android:color/white"
+    android:elevation="2dp">
+
+    <!-- TextView hiển thị công việc -->
+    <TextView
+        android:id="@+id/textViewNameNote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:text="Tên công việc" />
+
+    <!-- Nút chỉnh sửa -->
+    <ImageView
+        android:id="@+id/imageViewEdit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:contentDescription="Sửa công việc"/>
+
+    <!-- Nút xóa -->
+    <ImageView
+        android:id="@+id/imageViewDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:contentDescription="Xóa công việc"/>
+
+</LinearLayout>
